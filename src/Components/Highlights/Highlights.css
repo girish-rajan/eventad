@@ -1,0 +1,49 @@
+.highlightbody{
+    color: #5e5e5e;
+}
+
+img.top {
+	margin: 8px 0 20px 0;
+}
+
+#content {
+	/* width: 740px; */
+	margin: 0 0 0 192px;
+    padding: 0;
+    position: relative;
+	padding: 24px;
+	width: 932px;
+    
+    text-align: left;
+
+}
+
+.purchasetkt{
+    padding-bottom: 20px;
+}
+
+.discountnumber{
+	font-size:70px;
+	color: red;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.left {
+	float: left;
+	height: 160px;
+	margin: 0px 20px 0px 0px;
+}
+
+.purchasetickets{
+	animation: 3s ease-out 0s 1 mymove;
+}
+
+@keyframes mymove {
+  0% {
+	transform: translateX(100%);
+  }
+  100% {
+	transform: translateX(0);
+  }
+}

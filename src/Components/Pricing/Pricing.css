@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .priceregion{
+    display: flex;
+    justify-content: center;
+  }
+  /* Create three columns of equal width */
+  .columns {
+    /* float: left; */
+    width: 20%;
+    padding: 8px 20px 50px 20px;
+    color: white;
+  }
+  
+  
+  /* Style the list */
+  .price {
+    list-style-type: none;
+    border: 1px solid orange;
+    margin: 0;
+    
+    padding-bottom: 40px;
+    padding-top: 40px;
+    /* padding: 0; */
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  /* Add shadows on hover */
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  
+  /* List items */
+  .price li {
+    /* padding: 10px; */
+    text-align: center;
+  }
+  
+
+  /* Grey list item */
+  .price .grey {
+    padding: 30px;
+    font-size: 20px;
+  }
+
+  
+  /* Change the width of the three columns to 100%
+  (to stack horizontally on small screens) */
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+     
+    }
+  }
+
+  .purchbutton{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 2px;
+   
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .priceline{
+    border: 1px solid chocolate;
+  }
