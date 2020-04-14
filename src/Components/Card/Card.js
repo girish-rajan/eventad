@@ -2,6 +2,12 @@ import React from 'react';
 import './Card.scss';
 import Countdown from '../../Components/Countdown/Countdown';
 import Hammenu from '../../Components/Hammenu/Hammenu';
+import first from './first.jpg';
+import second from './second.jpeg';
+import third from './third.jpg';
+import fourth from './fourth.jpg';
+import fifth from './fifth.jpg';
+
 
 const Card=()=>{
     return <div >
@@ -15,7 +21,7 @@ const Card=()=>{
 		<input type="radio" id="carousel-5" name="carousel[]"></input>
 		<ul className="carousel__items">
 			<li className="carousel__item">
-                <img src="https://lh3.googleusercontent.com/iZFdKQlq_2Bmvx3F9-IGd34WD7r00eBicjjjlTmdz5S1QnhyuJPArw4SaBT6kopu5rBRW6Na0ojLDCsct5k7NzaXRFGZ=w1000" alt="">
+                <img src={first} alt="">
                 </img>
                 <div className="top-left">
                     <h3 className="ma1 f2 white">The Venue</h3>
@@ -23,7 +29,7 @@ const Card=()=>{
                 </div>
             </li>
 			<li className="carousel__item">
-                <img src="http://www.timisoaranight.gruzphoto.eu/IMG_8554.jpg" alt="">
+                <img src={second} alt="">
                 </img>
                 <div className="top-left">
                     <h3 className="ma1 f2 white">The Venue</h3>
@@ -31,7 +37,7 @@ const Card=()=>{
                 </div>
             </li>
 			<li className="carousel__item">
-                <img src="https://speakzeasy.files.wordpress.com/2015/05/twa_blogpic_timisoara-4415.jpg" alt="">
+                <img src={third} alt="">
                 </img>
                 <div className="top-left">
                     <h3 className="ma1 f2 white">The Venue</h3>
@@ -39,7 +45,7 @@ const Card=()=>{
                 </div>
             </li>
 			<li className="carousel__item">
-                <img src="//lh5.googleusercontent.com/-gywqIeMvel0/U8-EolKdtkI/AAAAAAAABdM/G0-NHuvvJUU/w1358-h905-no/carousel-4.jpg" alt="">
+                <img src={fourth} alt="">
                 </img>
                 <div className="top-left">
                     <h3 className="ma1 f2 white">The Venue</h3>
@@ -47,7 +53,7 @@ const Card=()=>{
                 </div>
             </li>
 			<li className="carousel__item">
-                <img src="//lh5.googleusercontent.com/--2iANjL3ikc/U8-EoGJ18mI/AAAAAAAABdI/fBe-q3Gos6Y/w1358-h905-no/carousel-5.jpg" alt="">
+                <img src={fifth} alt="">
                 </img>
                 <div className="top-left">
                     <h3 className="ma1 f2 white">The Venue</h3>
